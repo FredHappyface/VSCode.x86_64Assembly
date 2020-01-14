@@ -9,7 +9,7 @@
 	"icon": "logo.png",
 	"license": "MIT",
 	"publisher": "fredhappyface",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.41.0"
     },
