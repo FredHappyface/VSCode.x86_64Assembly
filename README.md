@@ -24,7 +24,7 @@ question feel free to open an issue.
 - Highlights strings
 
 ## About
-This is a TextMate/Sublime/VS Code/Atom bundle providing language support for x86_64 assembly language in a variety of dialects (nasm/yasm primarily, but could highlight tasm/gas to some extent).
+VS Code plugin providing language support for x86_64 assembly language in a variety of dialects (nasm/yasm primarily, but could highlight tasm/gas to some extent).
 
 ## Features
 - Basic support for NASM/YASM/TASM/GAS syntaxes
