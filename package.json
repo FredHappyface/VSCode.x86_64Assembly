@@ -1,0 +1,38 @@
+{
+    "name": "x8664assembly",
+    "displayName": "x8664assembly",
+	"description": "x86 and x86_64 assembly syntax highlighting",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FredHappyface/VSCode.x86_64Assembly.git"
+	},
+	"icon": "logo.png",
+	"license": "MIT",
+	"publisher": "fredhappyface",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+	],
+	"keywords": [
+		"programming",
+		"languages",
+		"assembly",
+		"asm"
+	],
+    "contributes": {
+        "languages": [{
+            "id": "asm",
+            "aliases": ["x86 and x86_64 assembly", "asm"],
+            "extensions": [".asm",".nasm",".yasm",".inc",".s"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "asm",
+            "scopeName": "source.asm.x86_64",
+            "path": "./syntaxes/language-x86_64-assembly.tmLanguage"
+        }]
+    }
+}
