@@ -15,6 +15,10 @@
 
 Taken from: https://github.com/13xforever/x86_64-assembly-vscode
 
+## Why not forked?
+It was not possible to add issues to the forked version - if you have a problem/
+question feel free to open an issue.
+
 ## Modifications
 - Registers case insensitive
 - Highlights strings
@@ -32,11 +36,6 @@ This is a TextMate/Sublime/VS Code/Atom bundle providing language support for x8
 	- AES-NI/SHA
 	- VMX/SMX/NPX/SGX
 	- other AMD/Cyrix/VIA and planned future Intel extensions
-
-## Source code
-VS Code package is exported from [Textmate/Sublime Bundle](https://github.com/13xforever/x86-assembly-textmate-bundle), all issues and pull requests should be filed there.
-
-To compile the yaml sources to tmLanguage, you'll need [PackageDev](https://packagecontrol.io/packages/PackageDev).
 
 
 ## Download
